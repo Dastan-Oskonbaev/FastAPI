@@ -3,7 +3,7 @@ import httpx
 import secrets
 
 import urllib.parse
-from fastapi import FastAPI, , HTTPException
+from fastapi import FastAPI, HTTPException
 from starlette.responses import RedirectResponse
 from dotenv import load_dotenv
 
